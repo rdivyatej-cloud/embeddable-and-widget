@@ -1,0 +1,45 @@
+{
+  "name": "embeddable-widget-and-lead-platform",
+  "version": "1.0.0",
+  "description": "Let a customer define a widget, hand them one line of `<script>`, and safely catch everything the public internet throws back at you — validated, spam-filtered, enriched, and dashboarded.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "seed": "ts-node src/db/seed.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdivyatej-cloud/embeddable-and-widget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdivyatej-cloud/embeddable-and-widget/issues"
+  },
+  "homepage": "https://github.com/rdivyatej-cloud/embeddable-and-widget#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.2.0",
+    "@types/supertest": "^7.2.1",
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
